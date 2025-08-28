@@ -16,6 +16,18 @@ export default function HeroSection() {
 			</div>
 
 			<div className="relative z-10 text-center">
+				<motion.div
+					initial={{ scale: 0.8, opacity: 0 }}
+					animate={{ scale: 1, opacity: 1 }}
+					transition={{ duration: 0.8, delay: 0.1 }}
+					className="flex justify-center mb-6"
+				>
+					<img
+						src="/profile.png" // Place your image in the public folder as 'profile.jpg'
+						alt="Profile picture"
+						className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg object-cover"
+					/>
+				</motion.div>
 				<motion.h1
 					initial={{ y: 50 }}
 					animate={{ y: 0 }}
