@@ -7,25 +7,25 @@ import Link from 'next/link';
 const projects = [
 	{
 		id: 1,
-		title: 'E-Commerce Platform',
-		description: 'A modern e-commerce platform built with Next.js and Stripe',
+		title: 'HopCrave',
+		description: 'Full-stack social media platform for food enthusiasts, built with React, Express.js, Node.js, PostgreSQL, and Python. Integrated GPT API for recipe auto-completion and smart ingredient suggestions. Developed a transformer-based model to analyze and recommend recipes based on user preferences.',
 		image: '/code.jpg',
 	},
 	{
 		id: 2,
-		title: 'AI Chat Application',
+		title: 'PPG2ECG with SEGAN',
 		description: 'Real-time chat application powered by OpenAI',
 		image: '/laptop.jpg',
 	},
 	{
 		id: 3,
-		title: 'Task Management',
+		title: 'Asymmetry-Aware Stroke Detection',
 		description: 'Collaborative task management tool with real-time updates',
 		image: '/code.jpg',
 	},
 	{
 		id: 4,
-		title: 'Portfolio Generator',
+		title: 'Steam Reviews Sentiment Classification',
 		description: 'Dynamic portfolio generator for developers',
 		image: '/laptop.jpg',
 	},
