@@ -55,7 +55,7 @@ export default function ProjectsSection() {
 						whileHover={{ scale: 1.02 }}
 						className="group relative aspect-video min-h-[200px] bg-gradient-to-br from-purple-900/50 to-blue-900/50 rounded-xl overflow-hidden"
 					>
-						<Image src={project.image} alt={project.title} fill className="object-cover transition-transform group-hover:scale-105" />
+						<Image src={project.image} alt={project.title} fill className="object-cover transition-transform group-hover:scale-105" unoptimized />
 						<div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-300" />
 						<div className="absolute inset-0 p-6 flex flex-col justify-end">
 							<h3 className="text-xl font-bold mb-2">{project.title}</h3>
