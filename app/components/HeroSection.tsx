@@ -46,7 +46,7 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.4 }}
 					className="text-lg md:text-xl text-gray-300 mb-8 px-4"
 				>
-					Master's student at Johns Hopkins University, passionate about software engineering, AI, and building impactful digital experiences.
+					Master&apos;s student at Johns Hopkins University, passionate about software engineering, AI, and building impactful digital experiences.
 				</motion.p>
 			</div>
 
