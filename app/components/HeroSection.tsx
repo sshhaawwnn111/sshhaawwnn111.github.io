@@ -29,7 +29,7 @@ export default function HeroSection() {
 					width={160}
 					height={160}
 					className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg object-cover"
-					priority
+					unoptimized
 				/>
 				</motion.div>
 				<motion.h1
