@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function HeroSection() {
 	return (
@@ -22,11 +23,14 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.1 }}
 					className="flex justify-center mb-6"
 				>
-					<img
-						src="/profile.png"
-						alt="Profile picture"
-						className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg object-cover"
-					/>
+				<Image
+					src="/profile.png"
+					alt="Profile picture"
+					width={160}
+					height={160}
+					className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg object-cover"
+					priority
+				/>
 				</motion.div>
 				<motion.h1
 					initial={{ y: 50 }}
