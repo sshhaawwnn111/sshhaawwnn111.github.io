@@ -4,30 +4,32 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
+const basePath = '/My-Portfolio';
+
 const projects = [
 	{
 		id: 1,
 		title: 'E-Commerce Platform',
 		description: 'A modern e-commerce platform built with Next.js and Stripe',
-		image: '/code.jpg',
+		image: `${basePath}/code.jpg`,
 	},
 	{
 		id: 2,
 		title: 'AI Chat Application',
 		description: 'Real-time chat application powered by OpenAI',
-		image: '/laptop.jpg',
+		image: `${basePath}/laptop.jpg`,
 	},
 	{
 		id: 3,
 		title: 'Task Management',
 		description: 'Collaborative task management tool with real-time updates',
-		image: '/code.jpg',
+		image: `${basePath}/code.jpg`,
 	},
 	{
 		id: 4,
 		title: 'Portfolio Generator',
 		description: 'Dynamic portfolio generator for developers',
-		image: '/laptop.jpg',
+		image: `${basePath}/laptop.jpg`,
 	},
 ];
 
