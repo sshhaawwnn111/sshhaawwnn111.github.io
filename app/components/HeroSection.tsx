@@ -23,7 +23,7 @@ export default function HeroSection() {
 					className="flex justify-center mb-6"
 				>
 					<img
-						src="/profile.png" // Place your image in the public folder as 'profile.jpg'
+						src="/profile.png"
 						alt="Profile picture"
 						className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg object-cover"
 					/>
@@ -34,7 +34,7 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.2 }}
 					className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600"
 				>
-					John Doe
+					Hsuan Wang
 				</motion.h1>
 				<motion.p
 					initial={{ y: 50, opacity: 0 }}
@@ -42,7 +42,7 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.4 }}
 					className="text-lg md:text-xl text-gray-300 mb-8 px-4"
 				>
-					Full Stack Developer & UI/UX Enthusiast
+					Master's student at Johns Hopkins University, passionate about software engineering, AI, and building impactful digital experiences.
 				</motion.p>
 			</div>
 
