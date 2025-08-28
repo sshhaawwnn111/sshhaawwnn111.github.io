@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-  
+
 const projects = [
 	{
 		id: 1,
@@ -53,7 +53,7 @@ export default function ProjectsSection() {
 						viewport={{ once: true }}
 						transition={{ duration: 0.6, delay: project.id * 0.1 }}
 						whileHover={{ scale: 1.02 }}
-						className="group relative aspect-video bg-gradient-to-br from-purple-900/50 to-blue-900/50 rounded-xl overflow-hidden"
+						className="group relative aspect-video min-h-[200px] bg-gradient-to-br from-purple-900/50 to-blue-900/50 rounded-xl overflow-hidden"
 					>
 						<Image src={project.image} alt={project.title} fill className="object-cover transition-transform group-hover:scale-105" />
 						<div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-300" />
