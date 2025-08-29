@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Hsuan Wang - Software Developer Portfolio',
 		description: 'Passionate software developer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
-		url: 'https://your-domain.com',
+		url: 'https://sshhaawwnn111.github.io/',
 		siteName: 'Hsuan Wang - Portfolio',
 		images: [
 			{
