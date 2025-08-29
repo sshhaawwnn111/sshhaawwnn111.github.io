@@ -5,11 +5,11 @@ import { motion } from 'framer-motion';
 const skillCategories = [
     {
         title: 'Languages',
-        skills: ['C', 'C++', 'Python', 'JavaScript', 'ShellScript', 'SQL', 'Verilog'],
+        skills: ['Python', 'C', 'C++', 'JavaScript', 'ShellScript', 'SQL', 'Verilog'],
     },
     {
         title: 'Frameworks & Libraries',
-        skills: ['React', 'Next.js', 'Express', 'Node.js', 'FastAPI', 'Pytorch', 'TensorFlow'],
+        skills: ['React', 'Express', 'Node.js', 'FastAPI', 'Pytorch', 'TensorFlow'],
     },
     {
         title: 'Tools & Technologies',
