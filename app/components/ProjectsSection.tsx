@@ -8,25 +8,25 @@ const projects = [
 	{
 		id: 1,
 		title: 'HopCrave',
-		description: 'Full-stack social media platform for food enthusiasts, built with React, Express.js, Node.js, PostgreSQL, and Python. Integrated GPT API for recipe auto-completion and smart ingredient suggestions. Developed a transformer-based model to analyze and recommend recipes based on user preferences.',
+		description: 'Full-stack recipe sharing social media platform for food enthusiasts.',
 		image: '/code.jpg',
 	},
 	{
 		id: 2,
 		title: 'PPG2ECG with SEGAN',
-		description: 'Real-time chat application powered by OpenAI',
+		description: 'Deep learning project to reconstruct ECG signals from PPG data using GANs.',
 		image: '/laptop.jpg',
 	},
 	{
 		id: 3,
 		title: 'Asymmetry-Aware Stroke Detection',
-		description: 'Collaborative task management tool with real-time updates',
+		description: 'Improve brain CT image stroke region segmentation by leveraging asymmetry analysis and preprocessing techniques.',
 		image: '/code.jpg',
 	},
 	{
 		id: 4,
 		title: 'Steam Reviews Sentiment Classification',
-		description: 'Dynamic portfolio generator for developers',
+		description: 'Built a sentiment analysis pipeline for Steam reviews using BERT and other ML models, achieving over 90% classification accuracy on custom-scraped data.',
 		image: '/laptop.jpg',
 	},
 ];
