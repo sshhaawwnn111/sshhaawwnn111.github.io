@@ -10,24 +10,32 @@ const projects = [
 		title: 'HopCrave',
 		description: 'Full-stack recipe sharing social media platform for food enthusiasts.',
 		image: '/code.jpg',
+		github: 'https://github.com/sshhaawwnn111/Recipe-Sharing-App',
+		learnMore: '#',
 	},
 	{
 		id: 2,
 		title: 'PPG2ECG with SEGAN',
 		description: 'Deep learning project to reconstruct ECG signals from PPG data using GANs.',
 		image: '/laptop.jpg',
+		github: 'https://github.com/sshhaawwnn111/Reconstructing-ECG-from-Paired-PPG-using-Dual-Discriminator-SEGAN',
+		learnMore: '#',
 	},
 	{
 		id: 3,
 		title: 'Asymmetry-Aware Stroke Detection',
 		description: 'Improve brain CT image stroke region segmentation by leveraging asymmetry analysis and preprocessing techniques.',
 		image: '/code.jpg',
+		github: '#',
+		learnMore: '#',
 	},
 	{
 		id: 4,
 		title: 'Steam Reviews Sentiment Classification',
 		description: 'Built a sentiment analysis pipeline for Steam reviews using BERT and other ML models, achieving over 90% classification accuracy on custom-scraped data.',
 		image: '/laptop.jpg',
+		github: 'https://github.com/sshhaawwnn111/Sentiment-Classification',
+		learnMore: '#',
 	},
 ];
 
@@ -64,7 +72,7 @@ export default function ProjectsSection() {
 								<Link href="#" className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors">
 									View Project
 								</Link>
-								<Link href="#" className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors">
+								<Link href={project.github} className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors">
 									GitHub
 								</Link>
 							</div>
