@@ -56,7 +56,7 @@ export default function ContactSection() {
 						<span>Get in Touch</span>
 					</a>
 					<a
-						href="/resume.pdf"
+						href="/My-Portfolio/resume.pdf"
 						target="_blank"
 						className="group flex items-center gap-2 px-6 py-3 bg-white/5 rounded-full hover:bg-white/10 transition-colors w-full sm:w-auto"
 					>
