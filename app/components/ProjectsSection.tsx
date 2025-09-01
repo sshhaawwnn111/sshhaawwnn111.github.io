@@ -69,9 +69,9 @@ export default function ProjectsSection() {
 							<h3 className="text-xl font-bold mb-2">{project.title}</h3>
 							<p className="text-gray-300 mb-4">{project.description}</p>
 							<div className="flex gap-4">
-								<Link href="#" className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors">
+								{/* <Link href="#" className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors">
 									View Project
-								</Link>
+								</Link> */}
 								<Link href={project.github} className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors">
 									GitHub
 								</Link>
