@@ -100,7 +100,7 @@ export default function ExperienceSection() {
                             {experience.technologies.map((tech, index) => (
                                 <span
                                     key={index}
-                                    className="text-xs px-3 py-1 bg-white/10 rounded-full text-gray-300 hover:bg-purple-500/20 hover:text-purple-200 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 cursor-pointer"
+                                    className="text-xs px-3 py-1 bg-white/10 rounded-full text-gray-300 hover:bg-purple-500/20 hover:text-purple-200 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300"
                                 >
                                     {tech}
                                 </span>
