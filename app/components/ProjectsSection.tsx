@@ -43,7 +43,15 @@ const projects = [
 		description: 'Conducted a theoretical ablation study, extending and clarifying results from the original RL paper with new proofs and insights.',
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/RL-Theory-Project',
-		learnMore: '#',
+		report: '#',
+	},
+	{
+		id: 6,
+		title: 'Diabetic Retinopathy Detection',
+		description: 'Classification of diabetic retinopathy in 5 levels in retinal images using ResNet18 and ResNet50.',
+		image: '/My-Portfolio/laptop.jpg',
+		github: 'https://github.com/sshhaawwnn111/NYCU-Deep-Learning/tree/master/Lab4',
+		report: '/My-Portfolio/diabetic-retinopathy-report.pdf',
 	},
 ];
 
@@ -86,6 +94,14 @@ export default function ProjectsSection() {
 										className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
 									>
 										GitHub
+									</Link>
+								)}
+								{project.report && project.report !== '#' && (
+									<Link
+										href={project.report}
+										className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+									>
+										View Report
 									</Link>
 								)}
 							</div>
