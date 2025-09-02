@@ -51,7 +51,7 @@ const projects = [
 		description: 'Classification of diabetic retinopathy in 5 levels in retinal images using ResNet18 and ResNet50.',
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/NYCU-Deep-Learning/tree/master/Lab4',
-		report: '/My-Portfolio/diabetic-retinopathy-report.pdf',
+		report: '/diabetic-retinopathy-report.pdf',
 	},
 ];
 
