@@ -1,5 +1,7 @@
 'use client';
 
+import { motion } from 'framer-motion';
+
 export default function ExperienceSection() {
     const experiences = [
         {
@@ -28,10 +30,26 @@ export default function ExperienceSection() {
 
     return (
         <section className="py-12 md:py-20 px-4 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Experience</h2>
+            <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="text-3xl md:text-4xl font-bold mb-8 text-center"
+            >
+                Experience
+            </motion.h2>
             <div className="flex flex-col gap-8">
                 {experiences.map((exp, idx) => (
-                    <div key={idx} className="bg-white/5 rounded-xl p-6">
+                    <motion.div
+                        key={idx}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: idx * 0.1 }}
+                        whileHover={{ scale: 1.02 }}
+                        className="bg-white/5 rounded-xl p-6 cursor-pointer transition-transform"
+                    >
                         <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
                             <div>
                                 <h3 className="text-xl font-semibold">{exp.role}</h3>
@@ -40,7 +58,7 @@ export default function ExperienceSection() {
                             <p className="text-gray-400 md:text-right">{exp.date}</p>
                         </div>
                         <p className="text-gray-200">{exp.description}</p>
-                    </div>
+                    </motion.div>
                 ))}
             </div>
         </section>
