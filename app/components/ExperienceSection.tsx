@@ -11,9 +11,7 @@ const experiences = [
         location: 'Baltimore, MD',
         description: 'Conducted research on deep learning models for medical imaging, contributing to publications and open-source projects.',
         bulletPoints: [
-            'Implemented state-of-the-art deep learning models for medical image segmentation and classification.',
-            'Collaborated with cross-functional teams to integrate AI solutions into clinical workflows.',
-            'Contributed to open-source projects and published research findings in peer-reviewed journals.'
+            
         ],
         technologies: ['Python', 'PyTorch', 'Medical Imaging', 'Git'],
     },
@@ -41,9 +39,9 @@ const experiences = [
         location: 'Taipei, Taiwan',
         description: 'Evaluated emerging AI models and led R&D on text-to-video generation, while streamlining data workflows with automated SQL queries.',
         bulletPoints: [
-            'Conducted literature reviews and implemented state-of-the-art text-to-video models using Python and TensorFlow.',
-            'Developed automated SQL queries to streamline data extraction and preprocessing for training datasets.',
-            'Collaborated with cross-functional teams to integrate AI solutions into existing products and workflows.'
+            'Evaluated and presented insights on 15+ emerging open sourced AI models (e.g., Neuralangelo, AudioCraft), influencing strategic decisions for future product development.',
+            'Led independent R&D on text-to-video generation with AnimateDiff, engineering a custom latent space modification to enable first-frame image conditioning.',
+            'Eliminated manual DB tasks by creating automated SQL and Python workflows for data selection and retrieval.'
         ],
         technologies: ['Python', 'Django', 'MySQL', 'Git', 'Diffusion Models', 'Machine Learning', 'Deep Learning'],
     },
