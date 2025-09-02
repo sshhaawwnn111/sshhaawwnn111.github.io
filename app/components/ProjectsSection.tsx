@@ -36,7 +36,7 @@ const projects = [
 		id: 5,
 		title: 'Ablation study of the RL paper: Stochastic Variance-Reduced Policy Gradient',
 		description: 'Conducted a theoretical ablation study, extending and clarifying results from the original RL paper with new proofs and insights.',
-		image: '/My-Portfolio/laptop.jpg',
+		image: '/My-Portfolio/code.jpg',
 		github: 'https://github.com/sshhaawwnn111/RL-Theory-Project',
 		report: '#',
 	},
@@ -47,6 +47,22 @@ const projects = [
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/NYCU-Deep-Learning/tree/master/Lab4',
 		report: '/diabetic-retinopathy-report.pdf',
+	},
+	{
+		id: 7,
+		title: 'Conditional Variational Auto Encoder for video prediction',
+		description: 'Developed a conditional variational autoencoder to predict future frames in video sequences.',
+		image: '/My-Portfolio/code.jpg',
+		github: 'https://github.com/sshhaawwnn111/NYCU-Deep-Learning/tree/master/Lab5',
+		report: '/conditional-variational-autoencoder-report.pdf',
+	},
+	{
+		id: 8,
+		title: 'Deep Q-Network and Deep Deterministic Policy Gradient',
+		description: 'Built deep reinforcement learning agents using DQN and DDPG algorithms to tackle environments including LunarLander spacecraft control and Atari Breakout gameplay',
+		image: '/My-Portfolio/code.jpg',
+		github: 'https://github.com/sshhaawwnn111/NYCU-Deep-Learning/tree/master/Lab6',
+		report: '/deep-q-network-report.pdf',
 	},
 ];
 
