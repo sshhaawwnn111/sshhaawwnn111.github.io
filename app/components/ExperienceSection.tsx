@@ -10,6 +10,11 @@ const experiences = [
         duration: 'Sep 2025 - Present',
         location: 'Baltimore, MD',
         description: 'Conducted research on deep learning models for medical imaging, contributing to publications and open-source projects.',
+        bulletPoints: [
+            'Implemented state-of-the-art deep learning models for medical image segmentation and classification.',
+            'Collaborated with cross-functional teams to integrate AI solutions into clinical workflows.',
+            'Contributed to open-source projects and published research findings in peer-reviewed journals.'
+        ],
         technologies: ['Python', 'PyTorch', 'Medical Imaging', 'Git'],
     },
     {
@@ -19,6 +24,13 @@ const experiences = [
         duration: 'Jun 2025 - Aug 2025',
         location: 'New Orleans, LA',
         description: 'Built an AI-powered medical ECG monitoring platform and collaborated with research teams to deliver innovative healthcare solutions.',
+        bulletPoints: [
+            'Developed a comprehensive medical ECG monitoring platform using FastAPI (Python) backend with dual database architecture (PostgreSQL for user data, MongoDB for ECG signals) and React TypeScript frontend.',
+            'Built secure role-based authentication system with JWT tokens and bcrypt password hashing.',
+            'Designed RESTful APIs and deployed using Docker with CI/CD pipelines on private research network.',
+            'Built an end-to-end, containerized MLOps pipeline for ECG data inference with PyTorch model loading, preprocessing pipelines, and RESTful API endpoints, deployed via Docker with NVIDIA CUDA support.',
+            'Implemented comprehensive monitoring stack using Prometheus for metrics collection and Grafana dashboards for tracking model performance, memory usage, and system health.'
+        ],
         technologies: ['TypeScript', 'Python', 'React.js', 'FastAPI', 'Git', 'PyTorch', 'Docker', 'PostgreSQL', 'MongoDB'],
     },
     {
@@ -28,6 +40,11 @@ const experiences = [
         duration: 'Jul 2023 - Jan 2024',
         location: 'Taipei, Taiwan',
         description: 'Evaluated emerging AI models and led R&D on text-to-video generation, while streamlining data workflows with automated SQL queries.',
+        bulletPoints: [
+            'Conducted literature reviews and implemented state-of-the-art text-to-video models using Python and TensorFlow.',
+            'Developed automated SQL queries to streamline data extraction and preprocessing for training datasets.',
+            'Collaborated with cross-functional teams to integrate AI solutions into existing products and workflows.'
+        ],
         technologies: ['Python', 'Django', 'MySQL', 'Git', 'Diffusion Models', 'Machine Learning', 'Deep Learning'],
     },
 ];
@@ -70,6 +87,17 @@ export default function ExperienceSection() {
                             {experience.description}
                         </p>
                         
+                        {experience.bulletPoints && (
+                            <ul className="text-gray-300 mb-4 space-y-2">
+                                {experience.bulletPoints.map((point, index) => (
+                                    <li key={index} className="flex items-start">
+                                        <span className="text-purple-400 mr-2 mt-1">•</span>
+                                        <span className="leading-relaxed">{point}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        )}
+
                         <div className="flex flex-wrap gap-2">
                             {experience.technologies.map((tech, index) => (
                                 <span
