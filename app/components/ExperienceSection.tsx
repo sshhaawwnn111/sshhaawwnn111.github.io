@@ -5,27 +5,30 @@ import { motion } from 'framer-motion';
 const experiences = [
     {
         id: 1,
-        company: 'Company Name',
-        position: 'Software Engineer',
-        duration: 'Jan 2023 - Present',
-        description: 'Developed and maintained web applications using React, TypeScript, and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions.',
-        technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
+        company: 'JHU CCVL Lab',
+        position: 'Research Assistant',
+        duration: 'Sep 2025 - Present',
+        location: 'Baltimore, MD',
+        description: 'Conducted research on deep learning models for medical imaging, contributing to publications and open-source projects.',
+        technologies: ['Python', 'PyTorch', 'Medical Imaging', 'Git'],
     },
     {
         id: 2,
-        company: 'Previous Company',
-        position: 'Frontend Developer',
-        duration: 'Jun 2022 - Dec 2022',
-        description: 'Built responsive user interfaces and improved application performance. Worked closely with designers to implement pixel-perfect designs.',
-        technologies: ['Vue.js', 'JavaScript', 'CSS', 'Figma'],
+        company: 'Tulane Research Innovation for Arrhythmia Discovery Center',
+        position: 'Software Engineering Intern',
+        duration: 'Jun 2025 - Aug 2025',
+        location: 'New Orleans, LA',
+        description: 'Built an AI-powered medical ECG monitoring platform and collaborated with research teams to deliver innovative healthcare solutions.',
+        technologies: ['TypeScript', 'Python', 'React.js', 'FastAPI', 'Git', 'PyTorch', 'Docker', 'PostgreSQL', 'MongoDB'],
     },
     {
         id: 3,
-        company: 'Internship Company',
-        position: 'Software Development Intern',
-        duration: 'May 2022 - Aug 2022',
-        description: 'Assisted in developing internal tools and learning modern development practices. Contributed to code reviews and testing processes.',
-        technologies: ['Python', 'Django', 'MySQL', 'Git'],
+        company: 'Glia Cloud',
+        position: 'Artificial Intelligence Intern',
+        duration: 'Jul 2023 - Jan 2024',
+        location: 'Taipei, Taiwan',
+        description: 'Evaluated emerging AI models and led R&D on text-to-video generation, while streamlining data workflows with automated SQL queries.',
+        technologies: ['Python', 'Django', 'MySQL', 'Git', 'Diffusion Models', 'Machine Learning', 'Deep Learning'],
     },
 ];
 
@@ -59,6 +62,9 @@ export default function ExperienceSection() {
                             </div>
                             <div className="text-sm text-gray-400 md:text-right">
                                 {experience.duration}
+                                {experience.location && (
+                                    <span className="text-gray-500"> - {experience.location}</span>
+                                )}
                             </div>
                         </div>
                         
