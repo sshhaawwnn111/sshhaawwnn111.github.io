@@ -37,6 +37,14 @@ const projects = [
 		github: 'https://github.com/sshhaawwnn111/Sentiment-Classification',
 		learnMore: '#',
 	},
+	{
+		id: 5,
+		title: 'Ablation study of the RL paper: Stochastic Variance-Reduced Policy Gradient',
+		description: 'Conducted a theoretical ablation study, extending and clarifying results from the original RL paper with new proofs and insights.',
+		image: '/My-Portfolio/laptop.jpg',
+		github: 'https://github.com/sshhaawwnn111/Sentiment-Classification',
+		learnMore: '#',
+	},
 ];
 
 export default function ProjectsSection() {
