@@ -11,7 +11,6 @@ const projects = [
 		description: 'Full-stack recipe sharing social media platform for food enthusiasts.',
 		image: '/My-Portfolio/code.jpg',
 		github: 'https://github.com/sshhaawwnn111/Recipe-Sharing-App',
-		learnMore: '#',
 	},
 	{
 		id: 2,
@@ -19,15 +18,12 @@ const projects = [
 		description: 'Deep learning project to reconstruct ECG signals from PPG data using GANs.',
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/Reconstructing-ECG-from-Paired-PPG-using-Dual-Discriminator-SEGAN',
-		learnMore: '#',
 	},
 	{
 		id: 3,
 		title: 'Asymmetry-Aware Stroke Detection (Private Research Repo)',
 		description: 'Improve brain CT image stroke region segmentation by leveraging asymmetry analysis and preprocessing techniques.',
 		image: '/My-Portfolio/code.jpg',
-		github: '#',
-		learnMore: '#',
 	},
 	{
 		id: 4,
@@ -35,7 +31,6 @@ const projects = [
 		description: 'Built a sentiment analysis pipeline for Steam reviews using BERT and other ML models, achieving over 90% classification accuracy on custom-scraped data.',
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/Sentiment-Classification',
-		learnMore: '#',
 	},
 	{
 		id: 5,
@@ -91,6 +86,8 @@ export default function ProjectsSection() {
 								{project.github && project.github !== '#' && (
 									<Link
 										href={project.github}
+										target="_blank"
+										rel="noopener noreferrer"
 										className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
 									>
 										GitHub
@@ -99,6 +96,8 @@ export default function ProjectsSection() {
 								{project.report && project.report !== '#' && (
 									<Link
 										href={project.report}
+										target="_blank"
+										rel="noopener noreferrer"
 										className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
 									>
 										View Report
