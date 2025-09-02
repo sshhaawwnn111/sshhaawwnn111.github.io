@@ -3,18 +3,25 @@
 export default function ExperienceSection() {
     const experiences = [
         {
-            role: 'Software Engineering Intern',
-            company: 'Tech Company',
-            location: 'Baltimore, MD',
-            date: 'Jun 2024 - Aug 2024',
-            description: 'Worked on full-stack web development projects, collaborating with cross-functional teams to deliver scalable solutions.',
+            role: 'Research Assistant',
+            company: 'JHU CCVL Lab',
+            location: 'Johns Hopkins University',
+            date: 'Sep 2025 - Present',
+            description: 'Conducted research on deep learning models for medical imaging, contributing to publications and open-source projects.',
         },
         {
-            role: 'Research Assistant',
-            company: 'JHU AI Lab',
-            location: 'Johns Hopkins University',
-            date: 'Sep 2023 - May 2024',
-            description: 'Conducted research on deep learning models for medical imaging, contributing to publications and open-source projects.',
+            role: 'Software Engineering Intern',
+            company: 'Tulane Research Innovation for Arrhythmia Discovery Center',
+            location: 'Baltimore, MD',
+            date: 'Jun 2025 - Aug 2025',
+            description: 'Built an AI-powered medical ECG monitoring platform and collaborated with research teams to deliver innovative healthcare solutions.',
+        },
+        {
+            role: 'Artificial Intelligence Engineer Intern',
+            company: 'Glia Cloud',
+            location: 'Taipei, Taiwan',
+            date: 'Jul 2023 - Jan 2024',
+            description: 'Evaluated emerging AI models and led R&D on text-to-video generation, while streamlining data workflows with automated SQL queries.',
         },
         // Add more experiences as needed
     ];
