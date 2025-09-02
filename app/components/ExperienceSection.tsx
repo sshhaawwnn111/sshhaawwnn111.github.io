@@ -6,7 +6,7 @@ const experiences = [
     {
         id: 1,
         company: 'Johns Hopkins Computational Cognition, Vision, and Learning (CCVL) Lab',
-        position: 'Research Assistant',
+        position: 'Software Developer',
         duration: 'Sep 2025 - Present',
         location: 'Baltimore, MD',
         description: 'Conducted research on deep learning models for medical imaging, contributing to publications and open-source projects.',
