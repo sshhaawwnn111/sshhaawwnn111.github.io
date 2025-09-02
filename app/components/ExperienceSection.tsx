@@ -61,10 +61,8 @@ export default function ExperienceSection() {
                                 <h4 className="text-lg text-purple-300 mb-2">{experience.company}</h4>
                             </div>
                             <div className="text-sm text-gray-400 md:text-right">
-                                {experience.duration}
-                                {experience.location && (
-                                    <span className="text-gray-500"> - {experience.location}</span>
-                                )}
+                                <div>{experience.duration}</div>
+                                <div>{experience.location}</div>
                             </div>
                         </div>
                         
