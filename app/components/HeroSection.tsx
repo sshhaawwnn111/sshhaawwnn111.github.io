@@ -24,7 +24,7 @@ export default function HeroSection() {
 					className="flex justify-center mb-6"
 				>
 				<Image
-					src="/My-Portfolio/profile.png"
+					src="/My-Portfolio/profile.jpeg"
 					alt="Profile picture"
 					width={160}
 					height={160}
