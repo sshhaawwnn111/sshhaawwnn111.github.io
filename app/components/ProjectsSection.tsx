@@ -23,7 +23,7 @@ const projects = [
 	},
 	{
 		id: 3,
-		title: 'Asymmetry-Aware Stroke Detection',
+		title: 'Asymmetry-Aware Stroke Detection (Private Research Repo)',
 		description: 'Improve brain CT image stroke region segmentation by leveraging asymmetry analysis and preprocessing techniques.',
 		image: '/My-Portfolio/code.jpg',
 		github: '#',

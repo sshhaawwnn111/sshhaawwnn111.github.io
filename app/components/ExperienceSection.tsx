@@ -21,15 +21,15 @@ const experiences = [
         position: 'Software Engineering Intern',
         duration: 'Jun 2025 - Aug 2025',
         location: 'New Orleans, LA',
-        description: 'Built an AI-powered medical ECG monitoring platform and collaborated with research teams to deliver innovative healthcare solutions.',
+        description: 'Built an AI-powered ECG monitoring platform (Private Repo) and collaborated with research teams on innovative healthcare solutions.',
         bulletPoints: [
-            'Developed a comprehensive medical ECG monitoring platform using FastAPI (Python) backend with dual database architecture (PostgreSQL for user data, MongoDB for ECG signals) and React TypeScript frontend.',
-            'Built secure role-based authentication system with JWT tokens and bcrypt password hashing.',
-            'Designed RESTful APIs and deployed using Docker with CI/CD pipelines on private research network.',
-            'Built an end-to-end, containerized MLOps pipeline for ECG data inference with PyTorch model loading, preprocessing pipelines, and RESTful API endpoints, deployed via Docker with NVIDIA CUDA support.',
-            'Implemented comprehensive monitoring stack using Prometheus for metrics collection and Grafana dashboards for tracking model performance, memory usage, and system health.'
+            'Developed comprehensive medical ECG monitoring platform with FastAPI backend, dual database architecture (PostgreSQL/MongoDB), and React TypeScript frontend.',
+            'Built secure role-based authentication system using JWT tokens and bcrypt password hashing.',
+            'Designed and deployed RESTful APIs using Docker with CI/CD pipelines on private research network.',
+            'Created end-to-end MLOps pipeline for ECG inference with PyTorch models, preprocessing pipelines, and CUDA-enabled Docker deployment.',
+            'Implemented monitoring stack using Prometheus and Grafana for tracking model performance and system health.'
         ],
-        technologies: ['TypeScript', 'Python', 'React.js', 'FastAPI', 'Git', 'PyTorch', 'Docker', 'PostgreSQL', 'MongoDB'],
+        technologies: ['TypeScript', 'Python', 'React.js', 'FastAPI', 'PyTorch', 'Git', 'Docker', 'PostgreSQL', 'MongoDB'],
     },
     {
         id: 3,
