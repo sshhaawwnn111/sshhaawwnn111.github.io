@@ -46,10 +46,10 @@ export default function ExperienceSection() {
                 {experiences.map((exp) => (
                     <motion.div
                         key={exp.id}
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={{ opacity: 0, y: 10 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        transition={{ duration: 0.8, delay: exp.id * 0.1 }}
+                        transition={{ duration: 0.6, delay: exp.id * 0.1 }}
                         whileHover={{ scale: 1.02 }}
                         className="bg-white/5 rounded-xl p-6 cursor-pointer transition-transform"
                     >
