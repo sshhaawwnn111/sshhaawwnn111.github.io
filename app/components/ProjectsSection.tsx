@@ -60,9 +60,25 @@ const projects = [
 		id: 8,
 		title: 'Deep Q-Network and Deep Deterministic Policy Gradient',
 		description: 'Built deep reinforcement learning agents using DQN and DDPG algorithms to tackle environments including LunarLander spacecraft control and Atari Breakout gameplay',
-		image: '/My-Portfolio/code.jpg',
+		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/NYCU-Deep-Learning/tree/master/Lab6',
 		report: '/deep-q-network-report.pdf',
+	},
+	{
+		id: 9,
+		title: 'Conditional Denoising Diffusion Probabilistic Model for multi-label image synthesis',
+		description: 'Built a conditional denoising diffusion probabilistic model for high-quality image synthesis. Trained on CLEVR dataset.',
+		image: '/My-Portfolio/code.jpg',
+		github: 'https://github.com/sshhaawwnn111/NYCU-Deep-Learning/tree/master/Lab7',
+		report: '/cDDPM.pdf',
+	},
+	{
+		id: 10,
+		title: 'Temporal Difference Learning for 2048 game',
+		description: 'Implemented a temporal difference learning algorithm to play the 2048 game, achieving a win rate of 99%.',
+		image: '/My-Portfolio/laptop.jpg',
+		github: 'https://github.com/sshhaawwnn111/NYCU-Deep-Learning/tree/master/Lab2',
+		report: '/td-learning-2048.pdf',
 	},
 ];
 
