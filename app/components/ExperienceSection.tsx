@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 export default function ExperienceSection() {
     const experiences = [
         {
+            id: 1,
             role: 'Research Assistant',
             company: 'JHU CCVL Lab',
             location: 'Johns Hopkins University',
@@ -12,6 +13,7 @@ export default function ExperienceSection() {
             description: 'Conducted research on deep learning models for medical imaging, contributing to publications and open-source projects.',
         },
         {
+            id: 2,
             role: 'Software Engineering Intern',
             company: 'Tulane Research Innovation for Arrhythmia Discovery Center',
             location: 'Baltimore, MD',
@@ -19,6 +21,7 @@ export default function ExperienceSection() {
             description: 'Built an AI-powered medical ECG monitoring platform and collaborated with research teams to deliver innovative healthcare solutions.',
         },
         {
+            id: 3,
             role: 'Artificial Intelligence Engineer Intern',
             company: 'Glia Cloud',
             location: 'Taipei, Taiwan',
@@ -40,13 +43,13 @@ export default function ExperienceSection() {
                 Experience
             </motion.h2>
             <div className="flex flex-col gap-8">
-                {experiences.map((exp, idx) => (
+                {experiences.map((exp) => (
                     <motion.div
-                        key={idx}
+                        key={exp.id}
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        transition={{ duration: 0.6, delay: idx * 0.1 }}
+                        transition={{ duration: 0.6, delay: exp.id * 0.1 }}
                         whileHover={{ scale: 1.02 }}
                         className="bg-white/5 rounded-xl p-6 cursor-pointer transition-transform"
                     >
