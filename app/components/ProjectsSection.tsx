@@ -108,19 +108,16 @@ export default function ProjectsSection() {
 					>
 						<Image src={project.image} alt={project.title} fill className="object-cover transition-transform group-hover:scale-105" unoptimized />
 						<div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-300" />
-						<div className="absolute inset-0 p-6 flex flex-col justify-end">
-							<h3 className="text-xl font-bold mb-2">{project.title}</h3>
-							<p className="text-gray-300 mb-4">{project.description}</p>
+						<div className="absolute inset-0 p-4 md:p-6 flex flex-col justify-end">
+							<h3 className="text-lg md:text-xl font-bold mb-2 line-clamp-2">{project.title}</h3>
+							<p className="text-gray-300 mb-4 text-sm md:text-base line-clamp-3">{project.description}</p>
 							<div className="flex gap-4">
-								{/* <Link href="#" className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors">
-									View Project
-								</Link> */}
 								{project.github && project.github !== '#' && (
 									<Link
 										href={project.github}
 										target="_blank"
 										rel="noopener noreferrer"
-										className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+										className="text-xs md:text-sm px-3 md:px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
 									>
 										GitHub
 									</Link>
@@ -130,7 +127,7 @@ export default function ProjectsSection() {
 										href={project.report}
 										target="_blank"
 										rel="noopener noreferrer"
-										className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+										className="text-xs md:text-sm px-3 md:px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
 									>
 										View Report
 									</Link>
