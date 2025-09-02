@@ -60,7 +60,7 @@ export default function AboutSection() {
                         <p className="text-gray-200 text-lg leading-relaxed mb-6">
                             I&apos;m Hsuan Wang, a Computer Science Master&apos;s student at Johns Hopkins University with experience in AI, software engineering, and full-stack development. I&apos;ve built projects ranging from medical AI systems to scalable web apps, and I enjoy applying machine learning and cloud technologies to solve real-world problems.
                         </p>
-                        <p className="text-gray-300 leading-relaxed">
+                        <p className="text-gray-200 text-lg leading-relaxed mb-6">
                             Currently working on deep learning research at the CCVL Lab, where I focus on medical imaging applications. I&apos;m passionate about bridging the gap between cutting-edge AI research and practical, deployable solutions.
                         </p>
                     </div>
