@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const experiences = [
     {
         id: 1,
-        company: 'JHU CCVL Lab',
+        company: 'Johns Hopkins Computational Cognition, Vision, and Learning (CCVL) Lab',
         position: 'Research Assistant',
         duration: 'Sep 2025 - Present',
         location: 'Baltimore, MD',
