@@ -102,7 +102,7 @@ export default function ProjectsSection() {
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
-						transition={{ duration: 0.6, delay: project.id * 0.1 }}
+						transition={{ duration: 0.6, delay: project.id * 0.05 }}
 						whileHover={{ scale: 1.02 }}
 						className="group relative aspect-video min-h-[200px] bg-gradient-to-br from-purple-900/50 to-blue-900/50 rounded-xl overflow-hidden"
 					>

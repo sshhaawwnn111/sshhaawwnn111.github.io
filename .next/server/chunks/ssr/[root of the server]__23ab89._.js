@@ -325,7 +325,7 @@ function ProjectsSection() {
                         },
                         transition: {
                             duration: 0.6,
-                            delay: project.id * 0.1
+                            delay: project.id * 0.05
                         },
                         whileHover: {
                             scale: 1.02
