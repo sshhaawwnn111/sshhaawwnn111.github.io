@@ -38,7 +38,7 @@ const projects = [
 		description: 'Conducted a theoretical ablation study, extending and clarifying results from the original RL paper with new proofs and insights.',
 		image: '/My-Portfolio/code.jpg',
 		github: 'https://github.com/sshhaawwnn111/RL-Theory-Project',
-		report: '#',
+		report: '/svrpg-report.pdf',
 	},
 	{
 		id: 6,
