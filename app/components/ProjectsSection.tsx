@@ -24,6 +24,7 @@ const projects = [
 		title: 'Asymmetry-Aware Stroke Detection (Private Research Repo)',
 		description: 'Improve brain CT image stroke region segmentation by leveraging asymmetry analysis and preprocessing techniques.',
 		image: '/My-Portfolio/code.jpg',
+		link: 'https://youtu.be/23isSiJxpaE',
 	},
 	{
 		id: 4,
@@ -80,6 +81,24 @@ const projects = [
 		github: 'https://github.com/sshhaawwnn111/NYCU-Deep-Learning/tree/master/Lab2',
 		report: '/td-learning-2048.pdf',
 	},
+	{
+		id: 11,
+		title: 'Computer Graphics Animation',
+		description: 'Render a computer graphics animation using OpenGL.',
+		image: '/My-Portfolio/code.jpg',
+		github: '#',
+		report: '#',
+		link: 'https://youtu.be/HcqKwsRahjI',
+	},
+	{
+		id: 12,
+		title: 'Reinforcement Learning Snake game',
+		description: 'Train a reinforcement learning agent with adversarial learning to play the classic Snake game.(The demo is in Mandarin)',
+		image: '/My-Portfolio/laptop.jpg',
+		github: '#',
+		report: '#',
+		link: 'https://youtu.be/IwmUs3QTDXc',
+	},
 ];
 
 export default function ProjectsSection() {
@@ -130,6 +149,16 @@ export default function ProjectsSection() {
 										className="text-xs md:text-sm px-3 md:px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
 									>
 										View Report
+									</Link>
+								)}
+								{project.link && project.link !== '#' && (
+									<Link
+										href={project.link}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="text-xs md:text-sm px-3 md:px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+									>
+										Demo Link
 									</Link>
 								)}
 							</div>
