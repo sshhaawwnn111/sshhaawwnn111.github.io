@@ -5,6 +5,19 @@ import { motion } from 'framer-motion';
 const experiences = [
     {
         id: 1,
+        company: 'Johns Hopkins Social Cognitive AI (SCAI) Lab',
+        position: 'Research Assistant',
+        duration: 'Sep 2025 - Present',
+        location: 'Baltimore, MD',
+        description: '',
+        bulletPoints: [
+            'Conducting research on Embodied AI with a focus on perspective-taking and social reasoning.',
+            'Developing simulation-based world models and state representations for evaluating spatial cognition in AI systems.',
+        ],
+        technologies: ['Python', 'PyTorch', 'Medical Imaging', 'Git'],
+    },
+    {
+        id: 2,
         company: 'Johns Hopkins Computational Cognition, Vision, and Learning (CCVL) Lab',
         position: 'Software Developer',
         duration: 'Sep 2025 - Present',
@@ -16,7 +29,7 @@ const experiences = [
         technologies: ['Python', 'PyTorch', 'Medical Imaging', 'Git'],
     },
     {
-        id: 2,
+        id: 3,
         company: 'Tulane Research Innovation for Arrhythmia Discovery Center',
         position: 'Software Engineering Intern',
         duration: 'Jun 2025 - Aug 2025',
@@ -32,7 +45,7 @@ const experiences = [
         technologies: ['TypeScript', 'Python', 'React.js', 'FastAPI', 'PyTorch', 'Git', 'Docker', 'PostgreSQL', 'MongoDB'],
     },
     {
-        id: 3,
+        id: 4,
         company: 'Glia Cloud',
         position: 'Artificial Intelligence Intern',
         duration: 'Jul 2023 - Jan 2024',
