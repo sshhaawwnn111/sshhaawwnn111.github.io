@@ -1304,7 +1304,7 @@ const experiences = [
         position: 'Software Developer',
         duration: 'Sep 2025 - Present',
         location: 'Baltimore, MD',
-        description: 'Conducted research on deep learning models for medical imaging, contributing to publications and open-source projects.',
+        description: 'Developing platform for the BodyMaps project.',
         bulletPoints: [],
         technologies: [
             'Python',
